@@ -21,7 +21,7 @@ A small machine-learning project that downloads Apple (AAPL) price history, trai
 ## Getting started
 
 ```bash
-git clone https://github.com/<your-username>/aapl-stock-predictor.git
+git clone https://github.com/dguo97/aapl-stock-predictor.git
 cd aapl-stock-predictor
 
 python -m venv .venv
@@ -61,6 +61,7 @@ aapl-stock-predictor/
 ├── aapl_model.py      # data loading, features, model, evaluation, charts
 ├── requirements.txt
 ├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
@@ -68,5 +69,8 @@ aapl-stock-predictor/
 
 - Add more features (MACD, Bollinger bands, market index or sector returns)
 - Try other models (gradient boosting, logistic regression) and compare against the baseline
-- Add transaction costs and a simple backtest of a strategy based on the predictions
 - Split the script into modules (`data.py`, `features.py`, `model.py`) and add tests
+
+## License
+
+MIT. See `LICENSE`.
